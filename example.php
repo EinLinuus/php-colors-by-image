@@ -50,13 +50,13 @@ foreach(glob("sample-images/*") as $image_src) {
 
         main {
             margin: 4rem auto;
-            max-width: 800px;
+            max-width: 1200px;
             padding: 1rem;
         }
 
         .row {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1.5fr;
             gap: 1rem;
             margin-bottom: 1rem;
             padding-bottom: 1rem;
