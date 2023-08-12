@@ -10,7 +10,7 @@ class ImageColorDetector
     {
         $image = self::loadImage($image_path);
 
-        $resized_image = self::resizeImage($image, 12 * 2, 12 * 2);
+        $resized_image = self::resizeImage($image, 24, 24);
 
         imagedestroy($image);
 
